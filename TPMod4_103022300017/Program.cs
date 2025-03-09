@@ -6,5 +6,9 @@ class Program
         Console.WriteLine(KodePos.getKodePos("Kujangsari"));
         Console.WriteLine(KodePos.getKodePos("batununggal"));
         Console.WriteLine(KodePos.getKodePos("jatisari"));
+
+        DoorMachine pintu = new DoorMachine();
+        pintu.BukaPintu();
+        pintu.KunciPintu();
     }
 }
