@@ -1,2 +1,10 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!"); 
+﻿using TPMod4_103022300017;
+class Program
+{
+    static void Main(string[] args)
+    {
+        Console.WriteLine(KodePos.getKodePos("Kujangsari"));
+        Console.WriteLine(KodePos.getKodePos("batununggal"));
+        Console.WriteLine(KodePos.getKodePos("jatisari"));
+    }
+}
